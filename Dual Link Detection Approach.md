@@ -28,7 +28,6 @@ The parts with different names and Sens_CIR
   
 <img width="464" alt="image" src="https://github.com/user-attachments/assets/b8e765f8-5bdf-47d9-9571-6a0bd51d788d" />
 
-  
 </p>
 
 In this case we need a buffer to catch the other side. (Buffer = 16 m for now, but du Park>16 m)
@@ -82,7 +81,7 @@ Some errors appear when there is more complicated situation:
 </p>
 
 Methods to overcome tested:
-- Limitation of the length: several lengths were tested and length < 20 m wworked! (Voila!)
+- Limitation of the length: several lengths were tested and length < 20 m worked! (Voila!)
 
 Beside midpoint, 5% & 95% of the links were also tested. However, the errors were more than considering the midpoints.
 
