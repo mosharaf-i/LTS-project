@@ -3,10 +3,12 @@
 This document is presenting my thought process in assessing, analysing, and coming up with a code to find links in the database that are part of one street, but are shown as two seperate entity.
 For analysing the crossing LTS, which was developed later in the project, we needed to find intersections that if part of a dual link, are part of only one intersection, and not two.
 
-## Dual link detection:
+## Dual Link Detection
 Two types of dual link detection:
 
-1.	Both part of the dual link has intersection with another street:(Most of the intersections) 
+1.	Both part of the dual link has intersection with another street:
+	(Most of the intersections) 
+
 Only 1 QGIS process: line-line intersection
 <p align="center">
   
@@ -19,8 +21,8 @@ In this intersection we have:
 - Opposite SENS_CIR
 - (No need for a buffer)
 
-In this type, each street has 2 matching streets as a result. Only the opposite side should be selected:
-The parts with different names and Sens_CIR
+In this type, each street has 2 matching streets as a result. Only the opposite side should be selected:  
+Both links connected to a street with same name, but the link's rows has **opposite Sens_CIR**.
 
 2.	Only one side of the dual like has intersection with another street.
 (Few intersections)
@@ -32,11 +34,11 @@ The parts with different names and Sens_CIR
 
 In this case we need a buffer to catch the other side. (Buffer = 16 m for now, but du Park>16 m)
 
-In this case: 
+This type, we can see: 
 - Same name
 - Opposite SENS_CIR
 - No link between two sides.
-This method for Type 2 also includes Type 1 intersections but it’s slower, because of the higher amount of data for processing.
+- This method for Type 2 also includes Type 1 intersections but it’s slower, because of the higher amount of data for processing.
 
 ## Questions and Errors:
 -	Saint-Joseph / Clark & Saint-Joseph/Drolet doesn’t have a link representation in Geobase, although bikes can pass it.
