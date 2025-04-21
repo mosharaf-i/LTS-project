@@ -12,6 +12,7 @@
 📋 During this project we used LTS method developed by Prof. Peter Furth (Northeastern University) and implemented it on the road and cycling network of Montreal. However, along the project, other analysis were also added, such as: intersection LTS, accessibility to the bike lanes, and comfort level analysis.
 
 To read about the Dual Link Detection Approach, please see [this document](Dual_Link_Detection_Approach.md), and for its Python code, [here.](link_detection.py)
+Documents on Accessibility and Crossing LTS (LTS at intersections) are coming soon.
  
  ✏️ Most of the data was provided by the City of Montreal, however, since more data was needed for calculating and analysing , other sources were identified and gathered as well.  
  For instance, we manually gathered bike lanes' width by measuring google maps satellite images.
