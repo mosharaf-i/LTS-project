@@ -3,7 +3,7 @@
  **Hello everyone, thanks for checking my GitHub!**  
  In this folder, you can see some of the codes I wrote for different section of the LTS project!  
  
- (Please note that I'm back to update and improve this folder, so it's a work **in process:D**)
+ (Please note that I'm back to update and improve this folder, so it's a work **in progress:D**)
   
 
 ➡️ Files and documents in this folder tend to showcase my experience and skills with GIS and coding tasks, as well as thought process to understand, and implement methods to tackle the questions during the project.
